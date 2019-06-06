@@ -1,0 +1,23 @@
+{
+  "name": "rodrigokamada.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Rodrigo Kamada <rodrigo@kamada.com.br> (https://github.com/rodrigokamada)",
+  "license": "ISC",
+  "homepage": "https://github.com/rodrigokamada/rodrigokamada.github.io#readme",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install",
+    "serve": "./node_modules/http-serve/bin/http-serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rodrigokamada@github.com/rodrigokamada/rodrigokamada.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigokamada/rodrigokamada.github.io/issues"
+  },
+  "devDependencies": {
+    "http-serve": "^1.0.1"
+  }
+}
