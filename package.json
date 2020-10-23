@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "setup": "npm install",
-    "serve": "./node_modules/http-serve/bin/http-serve"
+    "start": "./node_modules/http-serve/bin/http-serve"
   },
   "repository": {
     "type": "git",

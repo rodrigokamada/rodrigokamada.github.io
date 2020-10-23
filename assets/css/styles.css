@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Consolas;
+  src: url('/assets/fonts/consolas.ttf') format('truetype');
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #100e17;
+  color: #ffffff;
+  font-family: nunito, sans-serif;
+  font-size: .9rem;
+}
+
+.screen-outter {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: table;
+}
+.screen-inner {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+}
+
+/* Animation - Start */
+.name {
+  margin: 0 auto;
+}
+.typewriter {
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-family: Consolas;
+  font-size: 2.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 8em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #ffffff;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+/* Animation - End */
+
+
+
+/* Social media - Start */
+.social {
+  display: inline-flex;
+}
+.social a {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0.5rem 0.5rem 0rem 0.5rem;
+  text-decoration: none;
+  background-color: #ffffff;
+  transition: all ease-in-out 150ms;
+}
+.social a:hover {
+  margin-top: 0rem;
+  transform: translate(0, -8);
+}
+.social img {
+  width: 23px;
+  height: 23px;
+  margin: auto;
+}
+img.social-npm {
+  width: 25px;
+  height: 25px;
+}
+/* Social media - End */
