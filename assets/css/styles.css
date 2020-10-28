@@ -88,6 +88,12 @@ body {
   height: 23px;
   margin: auto;
 }
+.social span {
+  margin: auto;
+  color: #100e17;
+  font-size: 1rem;
+  font-weight: bold;
+}
 img.social-npm {
   width: 25px;
   height: 25px;
