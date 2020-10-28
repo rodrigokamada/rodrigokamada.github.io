@@ -65,37 +65,38 @@ body {
 
 
 
-/* Social media - Start */
-.social {
+/* Social Media Buttons - Start */
+.social-buttons {
   display: inline-flex;
+  flex-wrap: wrap;
 }
-.social a {
+.social-buttons a {
   display: inline-flex;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin: 0.5rem 0.5rem 0rem 0.5rem;
+  margin: 0.5rem;
   text-decoration: none;
   background-color: #ffffff;
   transition: all ease-in-out 150ms;
 }
-.social a:hover {
+.social-buttons a:hover {
   margin-top: 0rem;
   transform: translate(0, -8);
 }
-.social img {
+.social-buttons img {
   width: 23px;
   height: 23px;
   margin: auto;
 }
-.social span {
+.social-buttons span {
   margin: auto;
   color: #100e17;
   font-size: 1rem;
   font-weight: bold;
 }
-img.social-npm {
+img.social-button-npm {
   width: 25px;
   height: 25px;
 }
-/* Social media - End */
+/* Social Media Buttons - End */
