@@ -61,6 +61,16 @@ body {
     border-right-color: transparent;
   }
 }
+@media (max-width: 352px) {
+  .typewriter {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 304px) {
+  .typewriter {
+    font-size: 1.5rem;
+  }
+}
 /* Animation - End */
 
 
